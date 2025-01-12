@@ -1,8 +1,6 @@
 # VoyageVerse – Blogging Website
 
-VoyageVerse is a modern blogging platform that allows users to explore, create, and share posts. It showcases basic user authentication, post sorting, and pagination functionalities. Some core functionalities were adapted from the work of the **MohitSojitra** https://github.com/MohitSojitra/react-blog-website
-
-, and the codebase has been updated for our specific use case. This README provides an in-depth look into how to set up, customize, and run the project.
+VoyageVerse is a modern blogging platform that allows users to explore, create, and share posts. It showcases basic user authentication, post sorting, and pagination functionalities. Some core functionalities were adapted from the work of the **MohitSojitra** https://github.com/MohitSojitra/react-blog-website, and the codebase has been updated for our specific use case. This README provides an in-depth look into how to set up, customize, and run the project.
 
 ---
 
