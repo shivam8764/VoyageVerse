@@ -1,0 +1,41 @@
+.navBar1 {
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  background-color: #343a40; /* Dark gray background */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.nav p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav p:hover {
+  color: #ffffff !important; /* Ensures hover effect stands out */
+}
+
+.text-secondary {
+  color: #868e96 !important; /* Lighter gray for inactive links */
+}
+
+.text-white {
+  color: #ffffff !important; /* White for active links */
+}

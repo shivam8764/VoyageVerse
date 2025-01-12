@@ -1,0 +1,17 @@
+/**
+ * App.css
+ *
+ * - Base styles for the App component and any default resets.
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Keeps width calculations consistent throughout */
+}
+
+.App {
+  /* A neutral light background color that is easy on the eyes */
+  background-color: rgb(246, 246, 246);
+  min-height: 100vh; /* Ensure the App covers full viewport height */
+}

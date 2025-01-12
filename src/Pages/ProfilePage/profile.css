@@ -1,0 +1,65 @@
+:root {
+  --primary-bg: rgba(0, 0, 0, 0.8);
+  --primary-color: white;
+  --secondary-color: grey;
+  --hover-bg: #333;
+  --hover-color: #fff;
+  --link-color: black;
+  --link-hover-color: #007bff;
+}
+
+.cardProfile {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 20px auto; 
+  padding: 15px; 
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+  border-radius: 8px; 
+}
+
+.title {
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin-bottom: 10px; 
+}
+
+button {
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 15px; 
+  color: var(--primary-color);
+  background-color: var(--hover-bg);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--hover-bg);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px; 
+  color: var(--link-color);
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+
+.cardProfile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+}
